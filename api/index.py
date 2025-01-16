@@ -1,5 +1,5 @@
 from flask import Flask, Response
-from feeds import feedbooks
+from .feeds import feedbooks
 
 app = Flask(__name__)
 
